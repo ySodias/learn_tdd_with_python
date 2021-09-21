@@ -5,3 +5,26 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1631662041864	Marionette	INFO	Listening on port 65410
 1631662042103	Marionette	WARN	TLS certificate errors will be ignored for this session
 1631662122052	Marionette	INFO	Stopped listening on port 65410
+1631703853732	geckodriver	INFO	Listening on 127.0.0.1:52917
+1631703856740	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\yurid\\AppData\\Local\\Temp\\rust_mozprofileCvavJl"
+1631703858163	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yurid\\AppData\\Local\\Temp\\rust_mozprofileCvavJl\\search.json.mozlz4", (void 0)))
+1631703861367	Marionette	INFO	Listening on port 52927
+1631703861542	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390155,name=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yurid\\AppData\\Local\\Temp\\rust_mozprofilex8KFCp\\search.json.mozlz4", (void 0)))
+1631703923744	Marionette	INFO	Listening on port 52989
+1631703924025	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+1631705148918	Marionette	INFO	Stopped listening on port 52989
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
